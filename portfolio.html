@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        .portfolio-content {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .category {
+            margin-bottom: 30px;
+        }
+
+        .category h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .food-gallery {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            gap: 20px; /* 这会为图片之间添加空隙 */
+        }
+
+        .food-gallery img {
+            width: auto;
+            height: 150px;
+            margin: 10px; /* 为每个图片增加外边距，使其美观 */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 为图片添加轻微的阴影 */
+            border-radius: 5px; /* 为图片添加圆角 */
+        }
+        .Daily-Plogs-Gallery {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            gap: 20px; /* 这会为图片之间添加空隙 */
+        }
+
+        .Daily-Plogs-Gallery img {
+            width: auto;
+            height: 150px;
+            margin: 10px; /* 为每个图片增加外边距，使其美观 */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 为图片添加轻微的阴影 */
+            border-radius: 5px; /* 为图片添加圆角 */
+        }   
+        .category img {
+            max-width: 45%; 
+            margin: 2.5%;
+            vertical-align: top; 
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index1.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+    </header>
+
+    <div class="portfolio-content">
+        <!-- Food Category -->
+        <div class="category">
+            <h2>Food</h2>
+            <div class="food-gallery">
+            <img src="assests/food images/food image1.jpg" alt="Food Description 1">
+            <img src="assests/food images/food image1.2.jpg" alt="Food Description 2">
+            <img src="assests/food images/food image2.jpg" alt="Food Description 3">
+            <img src="assests/food images/food image3.jpg" alt="Food Description 4">
+            <img src="assests/food images/food image4.jpg"  alt="Food Description 5">
+            <img src="assests/food images/food image5.jpg"  alt="Food Description 6">
+            <img src="assests/food images/food image6.jpg"  alt="Food Description 7">
+            <img src="assests/food images/food image7.jpg"  alt="Food Description 5">
+            
+            
+            
+          
+
+
+            <!-- Add more images for this category -->
+             </div>
+         </div>
+
+        <!-- Daily Plog Category -->
+        <div class="category">
+            <h2>Daily Plog</h2>
+            <div class="Daily-Plogs-Gallery">
+            <img src="assests/daily plog images/daily plog1.jpg" alt="Plog Description 1">
+            <img src="assests/daily plog images/daily plog2.jpg" alt="plog Description 2">
+            <img src="assests/daily plog images/daily plog3.jpg" alt="plog Description 3">
+            <img src="assests/daily plog images/daily plog4.jpg" alt="plog Description 4">
+            <img src="assests/daily plog images/daily plog5.jpg"  alt="plog Description 5">
+            <img src="assests/daily plog images/daily plog6.jpg"  alt="plog Description 6">
+            <img src="assests/daily plog images/daily plog7.jpg"  alt="plog Description 7">
+            <img src="assests/daily plog images/daily plog8.jpg"  alt="plog Description 8">
+            
+            
+
+            <!-- Add more images for this category -->
+            </div>
+        </div>
+
+        <!-- ... Repeat for Scenery, Creative Art Works ... -->
+
+        <!-- Videos -->
+        <div class="category">
+            <h2>Videos</h2>
+            <iframe src="https://www.youtube.com/embed/-3A4OxbopBU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <!-- Add more videos -->
+        </div>
+
+    </div>
+</body>
+
+</html>
+

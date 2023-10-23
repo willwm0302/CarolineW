@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarolineWang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 20px;/* 调整Home Protfolio上下间距 */
+            border-bottom: 1px solid #ddd;
+        }
+        header > div {
+            display: flex;
+            align-items: center;
+            gap: 50px; /* 调整Home Protfolio间距 */
+        }
+        nav {
+            width:140px;/* 调整Search Bar左右宽度 */
+            border-right: 1px solid #ddd;
+            height: 100vh;
+            padding: 10px 10px;
+            float: left;
+        }
+        nav input[type="text"] {
+            width: 95%; /* 调整为90%以减少宽度 */
+            padding: 8px; /* 调整padding来改变高度 */
+            margin-bottom: 20px;
+            margin-left: -5px;
+        }
+        .main-content {
+            margin-left: 210px;/* 调整Main Content左右 */
+            padding: 0px;/* 斜向调整Main Content */
+        }
+        .gallery {
+            display: flex;
+            gap: 30px;/* 调整三个框间距 */
+            margin-top:20px;/* 调整H三个框和Main Content间距 */
+        }
+        .gallery div {
+            width: 150px;/* 调整三个框宽度 */
+            height: 150px;/* 调整三个框高度 */
+            background-color: #e0e0e0;
+        }
+        .intro-content {
+            margin-left: 0;  /* 或者你可以设置为具体的值，例如 20px, 根据需要调整 */
+            padding-left: 0; /* 根据实际的情况，可能需要调整这里的值 */
+        }
+
+        .services, .cta, .newsletter {
+            
+             margin-left: 210px;   /* 将此行改为0 */
+             padding: 0px;       /* 将此行改为0 */
+        }
+
+          
+    
+
+        .newsletter input[type="email"] {
+            width: 70%;
+            padding: 8px;
+            margin-right: 10px;
+        }
+
+        .newsletter button {
+            padding: 9px 15px;
+            background-color: #4CAF50;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+
+<header>
+    <div>
+        <img src="assests/images/logo.jpg" width="60px">
+        <a href="file://Users/wangruoxue/Desktop/Caroline Wang Web Design/index1.html">Home</a>
+        <a href="file:///Users/wangruoxue/Desktop/Caroline%20Wang%20Web%20Design/portfolio.html">Portfolio</a>
+         <a href=" file:///Users/wangruoxue/Desktop/Caroline%20Wang%20Web%20Design/about%20me.html">About Me</a> <!-- Updated link here -->
+         <a href="file:///Users/wangruoxue/Desktop/Caroline%20Wang%20Web%20Design/contact.html">Contact</a> <!-- Updated link here -->
+    </div>
+</header>
+<nav>
+    <input type="text" placeholder="Search...">
+    <div>Navigation</div>
+    <!-- Add additional navigation items here -->
+</nav>
+
+<div class="main-content">
+        <h1>Welcome to Caroline Wang's Space!</h1>
+
+    <!-- Funny Introduction -->
+    <div class="intro">
+        <p>Hello there! I'm Caroline, a media production enthusiast, digital marketing aspirant, and a proud cat & dog lover. Did you know? My cat once tried to 'help' me edit a video, and it turned out... pawsitively purrfect! 😺</p>
+    </div>
+
+    <!-- Featured Works -->
+    <div class="gallery">
+        <!-- Add images/videos with a brief description -->
+        <div style="background-image:url('path_to_image1.jpg');"></div>
+        <div style="background-image:url('path_to_image2.jpg');"></div>
+        <div style="background-image:url('path_to_image3.jpg');"></div>
+    </div>
+    </div>
+    <!-- Call to Action -->
+    <div class="cta">
+        <h2>Let's Collaborate!</h2>
+        <p>Interested in working with me or just want to say hi? Drop me a message on my <a href="contact.html">Contact Page</a>.</p>
+    </div>
+
+    <!-- Newsletter Signup -->
+    <div class="newsletter">
+    <h2>Stay Updated</h2>
+    <p>Join my newsletter to get updates on my latest projects and adventures:</p>
+    <form action="path_to_your_form_handler" method="post">
+        <input type="email" name="email" placeholder="Your Email">
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
